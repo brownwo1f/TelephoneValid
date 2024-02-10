@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width , initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
+        
     </head>
     <body>
         <div class="container">
@@ -13,14 +13,15 @@
             <div class="phone">
                 <div id="cam"></div>
                 <p id="ptext">Enter a Phone Number:</p> 
-                <input id="user-input" type="text" value="" placeholder="Enter here..">
-                <button id="check-btn" type="submit">Check</button>
-                <button id="clear-btn" type="submit">Clear</button>
-                <div id="result-div" class="hidden">
+                <input maxlength="20" type="text" id="user-input" value="" placeholder="Enter here..">
+                <button class="check-btn" id="check-btn">Check</button>
+                <button class="clear-btn" id="clear-btn">Clear</button>
+                <div id="results-div" class="hidden">
                     <p>Sample Text</p>
                 </div>
                 <div id="pill"></div>
             </div>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>

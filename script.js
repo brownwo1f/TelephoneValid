@@ -1,9 +1,16 @@
 const userInput = document.getElementById("user-input");
 const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
+const resultsDiv = document.getElementById("results-div");
 
-const checkPhn = (userInput.value) => {
-    console.log("working")
+const checkValidNumber = input => {
+    if (input === '') {
+      alert('Please provide a phone number');
+      return;
+    }
 }
 
-checkBtn.addEventListener("click",checkPhn);
+checkBtn.addEventListener("click", () => {
+    checkValidNumber(userInput.value);
+    userInput.value = '';
+  });

@@ -42,7 +42,7 @@ body{
     background:black;
     margin:10px;
 }
-#user-input, #check-btn, #clear-btn{
+#user-input, .check-btn, .clear-btn{
     width: 90%;
     height: 30px;
     border: none;
@@ -53,17 +53,17 @@ body{
     font-weight: 600;
     font-size: 15px;
 }
-#check-btn{
+.check-btn{
     width: 60%;
     background: rgb(89, 89, 255);
     cursor: pointer;
 }
-#clear-btn{
+.clear-btn{
     width: 60%;
     background: rgb(250, 67, 67);
     cursor: pointer;
 }
-#result-div{
+#results-div{
     height: 30%;
     width: 90%;
     margin: 10px auto;
