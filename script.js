@@ -17,7 +17,7 @@ const checkValidNumber = (input) => {
 
 const createPTag = (bool) => {
     const p = document.createElement("p");
-    p.innerText = bool ? "Number is Valid" : "Number is Invalid";
+    p.innerText = bool ? `Valid US number: ${userInput.value}` : `Invalid US number: ${userInput.value}`;
     resultsDiv.appendChild(p);
 }
 
