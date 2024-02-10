@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background:#0a0a23;
+}
+.container{
+    width: auto;
+    max-width: 40%;
+    height: 100vh;
+    margin: auto;
+}
+#text{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+#ptext{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+}
+.phone{
+    width: 40%;
+    height: 70%;
+    background: #dbd7d7;
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    border-radius: 30px;
+    border: 10px solid rgb(2, 2, 2);
+    box-shadow: 0 0 100px 1px #666;
+}
+#cam{
+    width:20%;
+    height:4%;
+    border-radius: 30px;
+    background:black;
+    margin:10px;
+}
+#user-input, #check-btn, #clear-btn{
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    margin:10px auto;
+    box-shadow: 0 1px 3px 0 #0a0a23;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+#check-btn{
+    width: 60%;
+    background: rgb(89, 89, 255);
+    cursor: pointer;
+}
+#clear-btn{
+    width: 60%;
+    background: rgb(250, 67, 67);
+    cursor: pointer;
+}
+#result-div{
+    height: 30%;
+    width: 90%;
+    margin: 10px auto;
+    background: #0a0a23;
+    border-radius: 30px;
+    color: #fff;
+    padding: 20px;
+
+}
+#pill{
+    width:40%;
+    height:3px;
+    border-radius: 50px;
+    background:black;
+    margin: 40px auto 0;
+}
